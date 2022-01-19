@@ -22,6 +22,7 @@ public class EmployeeController {
 	
 	@GetMapping("/fetch-employees")
 	public List<Employee> getAllEmployees(){
+		//demo
 		return service.getAllEmployees();
 	}
 	
